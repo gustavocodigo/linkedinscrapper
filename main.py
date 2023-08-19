@@ -57,8 +57,7 @@ def main():
 
                 for job in jobs:
                     print(str(count)+"- " + job)
-                    sendDiscordWebhook(
-                        "https://discord.com/api/webhooks/1115838184518078565/vIpzJVrn4jTSKuhDgmlTExKOn4m7uwXKEU-Lmon2EonHDlwjEzY-plz7gHVeBQoyObip", job)
+                   
                     count = count + 1
                 continues = input(Fore.WHITE+"CLIQUE "+Fore.GREEN +
                                   "[ENTER]"+Fore.WHITE+" PARA IR PRA PROXIMA PAGINA OU [N] PARA PARAR: ") == ""
