@@ -1,5 +1,3 @@
-from DiscordWebhook import sendEmbedDiscordWebhook
-from DiscordWebhook import sendDiscordWebhook
 from Linkedev import LinkeSafe
 from urllib.parse import quote
 import os
